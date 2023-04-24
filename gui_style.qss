@@ -1,0 +1,95 @@
+QPushButton#fancy{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(240,240,240), stop: 1 rgb(180, 180, 180));
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgb(180, 180, 180);
+    border-radius: 8px;
+    
+    
+    font: 11px;
+}
+
+QPushButton#fancy:hover {
+    border-width: 2px;
+    border-color: rgb(63, 128, 246);
+    border-style: outset;
+}
+
+QPushButton#fancy:pressed {
+    border-width = 2px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(200, 200, 200), stop: 1 white);
+    border-style: inset;
+}
+
+QLabel#fancy:hover{ 
+    color: rgb(29, 28, 115);
+    font: 12px;
+}
+QLabel#fancy{ 
+    color: rgb(100, 100, 100);
+    font: 12px;
+}
+
+QComboBox#fancy{
+
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 white, stop: 1 rgb(200, 200, 200));
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgb(180, 180, 180);
+    border-radius: 8px;
+    min-width: 80px;
+    
+    font: 11px;
+
+}
+QComboBox#fancy:hover {
+    border-width: 2px;
+    border-color: rgb(63, 128, 246);
+    border-style: outset;
+}
+
+QComboBox#fancy:pressed {
+    border-width = 2px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(200, 200, 200), stop: 1 white);
+    border-style: inset;
+}
+
+# QComboBox#fancy:drop-down{
+# 
+#     image: url(resources/drop_down.png);
+#     width: 14px;
+#     height: 24px;
+#     
+# }
+
+QPushButton#laura_1{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 white, stop: 1 rgb(100, 220, 200));
+    border-style: outset;
+    border-width: 4px;
+    border-color: rgb(200, 180, 180);
+    border-radius: 10px;
+    
+    
+    font: 13px;
+}
+
+QPushButton#laura_1:hover {
+    border-width: 5px;
+    border-color: rgb(200, 200, 246);
+    border-style: intset;
+}
+
+QTextEdit#passive:hover{ 
+    text-color: rgb(255, 0, 0);
+    font: 12px;
+}
+
+QTextEdit#passive{ 
+    color: rgb(155, 135, 12);
+    font: 12px;
+}
